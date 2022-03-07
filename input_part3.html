@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is my page">
+    <title>Doctype</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">name</label>
+            <input  type="text"
+                    placeholder="name"
+                    value="mahmoud"
+                    readonly> <!--readonly-->
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <input  type="email"
+                    placeholder="email"
+                    required
+                    value="mahmoudmiehob@gmail.com"
+                    disabled><!--disabled-->
+        </div>
+
+        <div>
+            <label for="password">password</label>
+            <input  type="password"
+                    placeholder="password"
+                    required
+                    autofocus><!--autofocus-->
+        </div>
+
+        <div>
+            <label for="password">password</label>
+            <input  type="password"
+                    placeholder="password"
+                    required
+                    autofocus
+                    minlength="8"
+                    maxlength="16"><!--min max-->
+        </div>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
