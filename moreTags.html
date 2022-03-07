@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is my page">
+    <title>Doctype</title>
+</head>
+
+<body>
+    <q>this is wise word</q>
+    <!--q : is inline tag-->
+    <q>this is wise word</q>
+    <q>this is wise word</q>
+    <q>this is wise word</q>
+
+    <blockquote>this is wise word</blockquote>
+    <!--blockquote : is block tag-->
+    <blockquote>this is wise word</blockquote>
+    <blockquote>this is wise word</blockquote>
+    <blockquote>this is wise word</blockquote>
+
+
+    <button>click</button>
+
+    <code>
+        $offer = Offer::create([
+        'photo' => $file_name,
+        'name_ar' => $request -> name_ar,
+        'name_en' => $request -> name_en,
+        'price' => $request -> price,
+    ]);
+
+    if($offer)
+    return response() -> json([
+        'status' => true,
+        'msg' => 'تم الحفظ بنجاح'
+    ]);
+    </code>
+
+    <pre>
+        $offer = Offer::create([
+        'photo' => $file_name,
+        'name_ar' => $request -> name_ar,
+        'name_en' => $request -> name_en,
+        'price' => $request -> price,
+    ]);
+
+    if($offer)
+    return response() -> json([
+        'status' => true,
+        'msg' => 'تم الحفظ بنجاح'
+    ]);
+    </pre>
+
+    <iframe src="" frameborder="0"></iframe>
+</body>
+
+</html>
